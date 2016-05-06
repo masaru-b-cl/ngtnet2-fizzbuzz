@@ -15,15 +15,9 @@ namespace FizzBuzz.Test
     }
 
     [TestMethod]
-    public void 引数が1の場合文字列で1を返す()
+    public void 引数が正の数の場合文字列でその数を返す()
     {
       fizzBuzzer.Say(1).Is("1");
-    }
-
-    [TestMethod]
-    public void 引数が2の場合文字列で2を返す()
-    {
-      fizzBuzzer.Say(2).Is("2");
     }
   }
 }
