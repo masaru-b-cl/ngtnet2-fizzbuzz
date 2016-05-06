@@ -19,5 +19,11 @@ namespace FizzBuzz.Test
     {
       fizzBuzzer.Say(1).Is("1");
     }
+
+    [TestMethod]
+    public void 引数が3の倍数の場合Fizzを返す()
+    {
+      fizzBuzzer.Say(3).Is("Fizz");
+    }
   }
 }
