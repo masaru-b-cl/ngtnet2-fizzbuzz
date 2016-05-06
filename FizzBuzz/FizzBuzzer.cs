@@ -10,7 +10,7 @@ namespace FizzBuzz
 
     public string Say(int number)
     {
-      return "1";
+      return $"{number}";
     }
   }
 }

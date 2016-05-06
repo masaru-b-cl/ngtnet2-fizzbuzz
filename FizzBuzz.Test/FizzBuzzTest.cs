@@ -13,5 +13,13 @@ namespace FizzBuzz.Test
 
       fizzBuzzer.Say(1).Is("1");
     }
+
+    [TestMethod]
+    public void 引数が2の場合文字列で2を返す()
+    {
+      var fizzBuzzer = new FizzBuzzer();
+
+      fizzBuzzer.Say(2).Is("2");
+    }
   }
 }
